@@ -6,12 +6,18 @@
 	<artifactId>EmbeddedCassandra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.cassandraunit/cassandra-unit-shaded -->
 		<!-- https://mvnrepository.com/artifact/org.cassandraunit/cassandra-unit-shaded -->
 		<dependency>
 			<groupId>org.cassandraunit</groupId>
 			<artifactId>cassandra-unit-shaded</artifactId>
-			<version>3.5.0.1</version>
+			<version>3.11.2.0</version>
 		</dependency>
 	</dependencies>
 </project>
